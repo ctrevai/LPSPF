@@ -1,0 +1,159 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+#title {
+    background-color: #9DD6DF; /* #25316D #5f6f94 #97D2EC #FEF5AC */
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding-bottom: 4.5rem;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+/* Download Button */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Tittle Image */
+.title-image{
+    width: 15%;
+    position: absolute;
+    right: 20%;
+}
+/* Feature Section */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #97e2dc;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #9DD6DF;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #9DD6DF;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #9DD6DF;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta {
+    background-color: #9DD6DF;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+
+/* Footer Section */
+
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+@media (max-width: 1048px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position:static;
+        width: 65%;
+    }
+}
